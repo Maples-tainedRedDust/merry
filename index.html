@@ -31,7 +31,7 @@
 <body>
 
     <div id="main">
-        <video id="video1"  autoplay="autoplay" src="merry.mp4">
+        <video id="video1" muted="muted" autoplay="autoplay" src="merry.mp4">
         </video>
     </div>
  
@@ -40,7 +40,6 @@
 <script type="text/javascript">
     $(function () {  
         var video = document.querySelector('video1');
-        video.muted = false;
     });
 
 </script>
