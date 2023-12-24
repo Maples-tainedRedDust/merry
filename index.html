@@ -32,14 +32,16 @@
 
     <div id="main">
         <video id="video1" muted="muted" autoplay="autoplay" src="merry.mp4">
+            <source src="merry.mp4" type="video/mp4" />
         </video>
+        <iframe style="display: none" allow="autoplay" src="merry.mp4"></iframe>
     </div>
- 
+  
 </body>
 
 <script type="text/javascript">
-    $(function () {  
-        var video = document.querySelector('video1');
+    $(function () {   
+        var video = document.querySelector('video1'); 
     });
 
 </script>
